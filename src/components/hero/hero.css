@@ -1,0 +1,120 @@
+.my-ul li{
+    list-style: none;
+  
+}
+
+ul {
+        padding-left:0!important;
+        flex-wrap: wrap;
+        
+       
+    }
+    .my-ul1 ,.my-ul2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+
+.hero{
+  margin-top: 32px;
+  border-radius: 20px;
+  height: calc(100vh - 32px);
+  background-color: #0a58ca;
+  position: relative;
+}
+
+.my-btn-hero{
+    background-color: orange!important;
+}
+.div1-hero{
+    padding-top: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.text-hero{
+    border:2px solid white;
+    border-radius: 30px;
+    max-width: max-content;
+    padding: 0 5px 0 5px;
+    
+}
+.my-crad-hreo{
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(98, 98, 255);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    max-width: max-content;
+    flex-wrap: wrap;
+}
+.photo2{
+   height: 500px;
+   position: absolute;
+   bottom: 0;
+   right: 150px;
+}
+.photo1{
+    height: 50px;
+    width: 100px;
+}
+.my-font{
+    border-left: 1px solid white;
+   
+}
+.photo3{
+   position: absolute;
+   right: 50%;
+   translate: 50%;
+   top: 20px;
+}
+.div-photo3{
+    background-color: white; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -75px;
+    right: 50%;
+    translate: 50%;
+
+}
+
+
+
+@media (max-width : 1115px){
+   
+    .div-photo3{
+        display: none;
+    }
+    .photo2{
+       
+        height: 300px;
+       
+    }
+    
+    
+    
+}
+@media (max-width : 940px){
+    .hero{
+        height: calc(100vh + 300px);
+    }
+    .photo2{
+        top: 10px;
+        left: 50%;
+        translate: -50%;
+    }
+    .div1-hero{
+       padding-top: 300px;
+    }
+}
+@media(max-width : 600px)
+{
+    .hero{
+        height: calc(100vh + 500px);
+    }
+}
